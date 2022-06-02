@@ -82,9 +82,6 @@ def wait():
 
 def main():
 	parse_arguments(sys.argv)
-	print(sys.argv)
-	print(wait_conditions)
-	print(check_time)
 	wait()
 
 
