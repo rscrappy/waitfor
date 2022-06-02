@@ -4,16 +4,16 @@ Use `waitfor` for all of your conditional waiting needs.
 `waitfor` is a command line tool that blocks until all specified conditions are met.
 It uses options to convey conditions and to configure certain options.
 
-##Options:
+## Options:
 
-####--check-time \<amount\>
+#### --check-time \<amount\>
 Sets the amount of time the program should wait before performing each condition check, applies to all conditions.
 
-####--and
+#### --and
 Sets the condition that should be met for each condition after it. In this case, every condition after it must be true in order for it to exit.
 
-####--nand
+#### --nand
 Sets the condition that should be met for each condition after it. In this case, every condition after it must be false in order for it to exit.
 
-####--directory-available \<path\>
+#### --directory-available \<path\>
 Sets a condition that returns True if the directory specified is a directory or exists.
