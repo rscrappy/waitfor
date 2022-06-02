@@ -17,3 +17,9 @@ Sets the condition that should be met for each condition after it. In this case,
 
 #### --directory-available \<path\>
 Sets a condition that returns True if the directory specified is a directory or exists.
+
+
+### Example
+`waitfor --directory-available /home/foo --nand --directory-available /home/bar --check-time 20`
+
+Check every 20 seconds to see if /home/foo exists and /home/bar does not exist, exit when these conditions are met.
