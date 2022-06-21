@@ -4,6 +4,8 @@ Use `waitfor` for all of your conditional waiting needs.
 `waitfor` is a command line tool that blocks until all specified conditions are met.
 It uses options to convey conditions and to configure certain options.
 
+Requires: Python 3.4 or higher, patience
+
 ## Options:
 
 #### --check-time \<amount\>
